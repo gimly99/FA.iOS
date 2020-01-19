@@ -45,6 +45,9 @@ class funeralAgencyTests: XCTestCase {
         //XCTAssertEqual(appUnderTest.)
     }
 
+    func testPerformanceExample() {
 
+        
+    }
 
 }
