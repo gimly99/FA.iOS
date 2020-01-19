@@ -18,10 +18,21 @@
 		CC88D52E23C9043C00C3F7EF /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC88D52D23C9043C00C3F7EF /* OrdersViewModel.swift */; };
 		CC88D53023C9047800C3F7EF /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC88D52F23C9047800C3F7EF /* Order.swift */; };
 		CC88D53223C904E400C3F7EF /* Error+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC88D53123C904E400C3F7EF /* Error+String.swift */; };
+		CE1F7F1123D4A3F800E0A8DA /* funeralAgencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1F7F1023D4A3F800E0A8DA /* funeralAgencyTests.swift */; };
 		CECDB56F23AD42F8008BE875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDB56E23AD42F8008BE875 /* AppDelegate.swift */; };
 		CECDB57823AD42FA008BE875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDB57723AD42FA008BE875 /* Assets.xcassets */; };
 		CECDB57B23AD42FA008BE875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECDB57923AD42FA008BE875 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE1F7F1323D4A3F800E0A8DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CECDB56323AD42F8008BE875 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CECDB56A23AD42F8008BE875;
+			remoteInfo = funeralAgency;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CC668C9723C8F1DA005A961B /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
@@ -35,6 +46,9 @@
 		CC88D52D23C9043C00C3F7EF /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
 		CC88D52F23C9047800C3F7EF /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		CC88D53123C904E400C3F7EF /* Error+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+String.swift"; sourceTree = "<group>"; };
+		CE1F7F0E23D4A3F700E0A8DA /* funeralAgencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funeralAgencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1F7F1023D4A3F800E0A8DA /* funeralAgencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funeralAgencyTests.swift; sourceTree = "<group>"; };
+		CE1F7F1223D4A3F800E0A8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE9005B323ADF3660038A3FC /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
 		CECDB56B23AD42F8008BE875 /* funeralAgency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funeralAgency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECDB56E23AD42F8008BE875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +60,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE1F7F0B23D4A3F700E0A8DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CECDB56823AD42F8008BE875 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -121,10 +142,20 @@
 			path = Legacy;
 			sourceTree = "<group>";
 		};
+		CE1F7F0F23D4A3F800E0A8DA /* funeralAgencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE1F7F1023D4A3F800E0A8DA /* funeralAgencyTests.swift */,
+				CE1F7F1223D4A3F800E0A8DA /* Info.plist */,
+			);
+			path = funeralAgencyTests;
+			sourceTree = "<group>";
+		};
 		CECDB56223AD42F8008BE875 = {
 			isa = PBXGroup;
 			children = (
 				CECDB56D23AD42F8008BE875 /* funeralAgency */,
+				CE1F7F0F23D4A3F800E0A8DA /* funeralAgencyTests */,
 				CECDB56C23AD42F8008BE875 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				CECDB56B23AD42F8008BE875 /* funeralAgency.app */,
+				CE1F7F0E23D4A3F700E0A8DA /* funeralAgencyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -156,6 +188,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE1F7F0D23D4A3F700E0A8DA /* funeralAgencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1F7F1723D4A3F800E0A8DA /* Build configuration list for PBXNativeTarget "funeralAgencyTests" */;
+			buildPhases = (
+				CE1F7F0A23D4A3F700E0A8DA /* Sources */,
+				CE1F7F0B23D4A3F700E0A8DA /* Frameworks */,
+				CE1F7F0C23D4A3F700E0A8DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE1F7F1423D4A3F800E0A8DA /* PBXTargetDependency */,
+			);
+			name = funeralAgencyTests;
+			productName = funeralAgencyTests;
+			productReference = CE1F7F0E23D4A3F700E0A8DA /* funeralAgencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CECDB56A23AD42F8008BE875 /* funeralAgency */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CECDB57F23AD42FA008BE875 /* Build configuration list for PBXNativeTarget "funeralAgency" */;
@@ -179,10 +229,14 @@
 		CECDB56323AD42F8008BE875 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = user;
 				TargetAttributes = {
+					CE1F7F0D23D4A3F700E0A8DA = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CECDB56A23AD42F8008BE875;
+					};
 					CECDB56A23AD42F8008BE875 = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -202,11 +256,19 @@
 			projectRoot = "";
 			targets = (
 				CECDB56A23AD42F8008BE875 /* funeralAgency */,
+				CE1F7F0D23D4A3F700E0A8DA /* funeralAgencyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE1F7F0C23D4A3F700E0A8DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CECDB56923AD42F8008BE875 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,6 +282,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE1F7F0A23D4A3F700E0A8DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1F7F1123D4A3F800E0A8DA /* funeralAgencyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CECDB56723AD42F8008BE875 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,6 +309,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE1F7F1423D4A3F800E0A8DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CECDB56A23AD42F8008BE875 /* funeralAgency */;
+			targetProxy = CE1F7F1323D4A3F800E0A8DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CECDB57423AD42F8008BE875 /* Main.storyboard */ = {
@@ -260,6 +338,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CE1F7F1523D4A3F800E0A8DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funeralAgencyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = user.funeralAgencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funeralAgency.app/funeralAgency";
+			};
+			name = Debug;
+		};
+		CE1F7F1623D4A3F800E0A8DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = funeralAgencyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = user.funeralAgencyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/funeralAgency.app/funeralAgency";
+			};
+			name = Release;
+		};
 		CECDB57D23AD42FA008BE875 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +533,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE1F7F1723D4A3F800E0A8DA /* Build configuration list for PBXNativeTarget "funeralAgencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1F7F1523D4A3F800E0A8DA /* Debug */,
+				CE1F7F1623D4A3F800E0A8DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CECDB56623AD42F8008BE875 /* Build configuration list for PBXProject "funeralAgency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
